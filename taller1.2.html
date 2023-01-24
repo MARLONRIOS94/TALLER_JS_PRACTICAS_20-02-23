@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>que puede hacer javascript?</h2>
+<p>javascript puede cambiar los valores de los atributos HTML.</p>
+<p>En este caso, javascript ambia el valor del atributo src (fuente de una imagen.)</p>
+
+<button onclick="document.getElementById('myImage').src='/images/pic_bulbon.gif'">Encender luz</button>
+
+<img id="myImage" src="/images/pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='/images/pic_bulboff.gif'">Apagar luz</button>
+</body>
+</html>
